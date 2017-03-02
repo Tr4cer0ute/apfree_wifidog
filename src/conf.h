@@ -88,9 +88,9 @@
 #define FWRULESET_LOCKED_USERS "locked-users"
 /*@}*/
 
-#define	DEFAULT_CA_CRT_FILE		"/etc/apfree.ca"
-#define	DEFAULT_SVR_CRT_FILE	"/etc/apfree.crt"
-#define	DEFAULT_SVR_KEY_FILE	"/etc/apfree.key"
+#define	DEFAULT_CA_CRT_FILE		"/etc/chain.pem"
+#define	DEFAULT_SVR_CRT_FILE	"/etc/cert.pem"
+#define	DEFAULT_SVR_KEY_FILE	"/etc/privkey.key"
 
 #define	WIFIDOG_REDIR_HTML_CONTENT	"setTimeout(function() {location.href = \"%s\";}, 10);"
 
