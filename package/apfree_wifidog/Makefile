@@ -6,11 +6,11 @@ PKG_RELEASE=1
 
 
 PKG_LICENSE:=GPL-2.0
-PKG_MAINTAINER:=Liu Dengfeng <liudengfeng@kunteng.org>
+PKG_MAINTAINER:=Ismail Rachdaoui <ismael@nextwi.co>
 PKG_LICENSE_FILES:=COPYING
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/liudf0716/apfree_wifidog.git
+PKG_SOURCE_URL:=https://github.com/Tr4cer0ute/apfree_wifidog.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=7e30967f1f5c9e5fb6ec76d2044016a65da7e167
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
