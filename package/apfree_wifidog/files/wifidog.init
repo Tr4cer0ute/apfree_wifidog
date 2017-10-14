@@ -124,6 +124,7 @@ FirewallRuleSet unknown-users {
     FirewallRule allow tcp port 53
     FirewallRule allow udp port 67
     FirewallRule allow tcp port 67
+    FirewallRule allow tcp port 443
 }
 
 FirewallRuleSet locked-users {
